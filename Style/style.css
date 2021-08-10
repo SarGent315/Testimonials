@@ -3,6 +3,12 @@
   box-sizing: border-box;
 }
 
+*,*::before
+,*::after 
+{
+  box-sizing: border-box;
+}
+
 body {
   padding: 0%;
   margin: 0%;
@@ -137,6 +143,7 @@ body {
 
 .attribution {
   text-align: center;
+  padding: 0.4rem;
 }
 
 /* For Desktop */
